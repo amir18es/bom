@@ -3,7 +3,7 @@ if matches[1]:lower() == "help" or matches[1] == 'راهنما' and is_mod(msg) 
 if not lang then
 text = [[
 
-💠 bom_bang Help 💠
+💠 Star Queen Help 💠
 ︻︻︻︻︻︻︻︻︻︻︻︻︻︻
 🔶 !mod help
 ⚙️》راهنما مدریت
@@ -22,7 +22,7 @@ text = [[
 
  راهنما قفل   👉👈  lock help!   
 ︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🌐 @bom_bang_team 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 
 elseif lang then
 
@@ -47,7 +47,7 @@ text = [[
 
  راهنما قفل   👉👈  lock help!   
 ︻︻︻︻︻︻︻︻︻︻︻︻︻︻
-🌐 @bom_bang_team 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 end
 return text
 end
@@ -214,13 +214,13 @@ lock2 = [[
 🔹 !lock text
 🔸 !unlock text
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل فروارد
-🔸 باز کردن فروارد
+🔹 قفل فوروارد
+🔸 باز کردن فوروارد
 🔹  !lock forward
 🔸  !unlock forward
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🔹 قفل ویس
-🔸 باز کردن ویس
+🔹 قفل صدا
+🔸 باز کردن صدا
 🔹  !lock voice
 🔸 !unlock voice
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
@@ -239,7 +239,7 @@ lock2 = [[
 🔹 !lock inline
 🔸 !unlock inline
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 
 elseif lang then
 
@@ -301,7 +301,7 @@ lock2 = [[
 🔹 !lock inline
 🔸 !unlock inline
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 end
 return lock2
 end
@@ -412,7 +412,7 @@ helpfun = [[
 
  تنظیمات    👉👈   settings!                
  ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 else
 
@@ -520,7 +520,7 @@ helpfun = [[
 
  تنظیمات    👉👈   settings!                
  ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+🌐 TeleStarTeam 🌐 ;)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 end
 end
@@ -627,7 +627,7 @@ text = [[
 ⚜️ !leave [GroupID]
 ✰》 خارج شدن ربات از گروه مورد نظر
 ﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄﹃﹄
-🌐 @bombangteam 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 else
 
@@ -711,7 +711,7 @@ Set Expire Time For Group
 
 !leave [GroupID]
 Leave Bot From Specific Group
-🌐 @bombangteam 🌐 ;)]]
+🌐 @TeleStarTeam 🌐 ;)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 end
 end
